@@ -7,8 +7,6 @@
  */
 package edu.wuwang.opengl.camera;
 
-import java.util.Arrays;
-
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,7 +15,6 @@ import android.graphics.Point;
 import android.graphics.SurfaceTexture;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCaptureSession;
-import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraDevice;
 import android.hardware.camera2.CameraManager;
 import android.hardware.camera2.CaptureRequest;
@@ -26,9 +23,12 @@ import android.hardware.camera2.TotalCaptureResult;
 import android.os.Build;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
 import android.view.Surface;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+
+import java.util.Arrays;
 
 /**
  * Description:

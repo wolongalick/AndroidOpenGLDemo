@@ -8,12 +8,16 @@ import android.hardware.SensorManager;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import edu.wuwang.opengl.BaseActivity;
-import edu.wuwang.opengl.R;
+
+import androidx.annotation.Nullable;
+
 import java.util.List;
+
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
+
+import edu.wuwang.opengl.BaseActivity;
+import edu.wuwang.opengl.R;
 
 /**
  * Created by aiya on 2017/5/19.
